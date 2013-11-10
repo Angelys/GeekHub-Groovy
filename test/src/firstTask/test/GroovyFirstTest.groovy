@@ -1,4 +1,4 @@
-package test
+package firstTask.test
 
 /**
  * Created with IntelliJ IDEA.
