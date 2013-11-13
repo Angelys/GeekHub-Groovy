@@ -14,6 +14,8 @@ class Test {
 
     static void main(String[] args){
         println new Test().getMyValue()
+        new Test().setMyValue("New value")
+        println new Test().getMyValue()
     }
 
 }
