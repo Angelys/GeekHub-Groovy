@@ -113,3 +113,19 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'geekhub.grails.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'geekhub.grails.UserRole'
+grails.plugin.springsecurity.authority.className = 'geekhub.grails.Role'
+grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+	'/**':                              ['permitAll'],
+//	'/index':                         ['permitAll'],
+//	'/index.gsp':                     ['permitAll'],
+//	'/**/js/**':                      ['permitAll'],
+//	'/**/css/**':                     ['permitAll'],
+//	'/**/images/**':                  ['permitAll'],
+//	'/**/favicon.ico':                ['permitAll']
+]
+
+grailsApplication.config.android.gcm.api.key = "AIzaSyAwCLm_tlu4AqLBUJh9dzVTTr35OPvGMRE"
