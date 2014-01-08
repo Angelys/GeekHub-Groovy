@@ -1,5 +1,7 @@
 package geekhub.grails
 
+import org.springframework.security.access.annotation.Secured
+
 class DeviceController {
 
     def add() {
@@ -17,9 +19,10 @@ class DeviceController {
         render(satus: 200)
     }
 
-    def showAll(){
+    @Secured(['ROLE_ADMIN'])
+    def list(){
 
-        render (contentType: 'text/json') {Device.getAll()}
+        render view: 'list', model: [devices: Device.getAll()]
 
     }
 }

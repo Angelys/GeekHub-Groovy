@@ -5,10 +5,9 @@ import geekhub.grails.UserRole
 class BootStrap {
 
     def init = { servletContext ->
-        def userRole = Role.findByAuthority('ROLE_USER') ?: new Role(authority: 'ROLE_USER').save(failOnError: true)
         def adminRole = Role.findByAuthority('ROLE_ADMIN') ?: new Role(authority: 'ROLE_ADMIN').save(failOnError: true)
 
-        def adminUser = User.findByUsername('admin') ?: new User(
+        def adminUser = User.findByUsername('root') ?: new User(
                 username: 'root',
                 password: "root",
                 enabled: true).save(failOnError: true)

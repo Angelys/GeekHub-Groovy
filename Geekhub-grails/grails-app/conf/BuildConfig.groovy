@@ -16,7 +16,7 @@ grails.project.fork = [
     // configure settings for the run-app JVM
     run: false, //[maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
     // configure settings for the run-war JVM
-    war: false, //[maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
+    war: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
     // configure settings for the Console UI JVM
     console: false, //[maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256]
 ]
@@ -63,6 +63,8 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.1'
         compile ":android-gcm:0.2"
         compile ':spring-security-core:2.0-RC2'
+        compile ":kickstart-with-bootstrap:1.0.0"
+        compile ":standalone:1.2.3"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate:3.6.10.6" // or ":hibernate4:4.1.11.6"

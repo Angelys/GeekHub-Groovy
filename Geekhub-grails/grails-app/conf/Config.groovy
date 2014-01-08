@@ -89,7 +89,9 @@ environments {
     }
     production {
         grails.logging.jul.usebridge = false
-        // TODO: grails.serverURL = "http://www.changeme.com"
+        grails.dbconsole.enabled = true
+        grails.dbconsole.urlRoot = '/admin/dbconsole'
+        grails.serverURL = "http://localhost:8080/${appName}"
     }
 }
 
@@ -118,6 +120,7 @@ log4j = {
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'geekhub.grails.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'geekhub.grails.UserRole'
 grails.plugin.springsecurity.authority.className = 'geekhub.grails.Role'
+grails.plugin.springsecurity.logout.postOnly = false
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**':                              ['permitAll'],
 //	'/index':                         ['permitAll'],
@@ -126,6 +129,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 //	'/**/css/**':                     ['permitAll'],
 //	'/**/images/**':                  ['permitAll'],
 //	'/**/favicon.ico':                ['permitAll']
+	'/**/dbconsole/**':               ['ROLE_ADMIN']
 ]
 
-grailsApplication.config.android.gcm.api.key = "AIzaSyAwCLm_tlu4AqLBUJh9dzVTTr35OPvGMRE"
+android.gcm.api.key = "AIzaSyAwCLm_tlu4AqLBUJh9dzVTTr35OPvGMRE"

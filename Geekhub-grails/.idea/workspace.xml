@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d31eeb-445b-4948-8c83-6bc5a10f7d5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/WebController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/geekhub/grails/Setting.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/pushNotification/_menubar.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/pushNotification/_notification.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/pushNotification/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/device/list.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/notification.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/pushNotification/notification.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/pushNotification/release.gsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/error.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/geekhub/grails/AndroidPushNotificationService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/geekhub/grails/AndroidPushNotificationService.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geekhub-grails-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Geekhub-grails-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geekhub-grails.iml" afterPath="$PROJECT_DIR$/Geekhub-grails.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Geekhub-grails.iws" />
@@ -81,64 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidPushNotificationService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/geekhub/grails/AndroidPushNotificationService.groovy">
+      <file leaf-file-name="notification.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/notification.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="42" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="124" selection-end="124" vertical-scroll-proportion="-5.2173915" vertical-offset="0" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/geekhub/grails/DeviceService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PushNotificationController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="1" selection-start="391" selection-end="391" vertical-scroll-proportion="0.44262296" vertical-offset="0" max-vertical-offset="610">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/WebController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
+            <state line="16" column="21" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -147,16 +104,34 @@
       <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="37" selection-start="4704" selection-end="4704" vertical-scroll-proportion="0.0" vertical-offset="1407" max-vertical-offset="2040">
+            <state line="96" column="0" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="2100">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+            <state line="21" column="1" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PushNotificationController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="73" selection-start="672" selection-end="672" vertical-scroll-proportion="0.43673012" vertical-offset="0" max-vertical-offset="893">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="48" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -165,7 +140,47 @@
       <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="420">
+            <state line="21" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="10" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="release.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/release.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
+              <folding>
+                <marker date="1389000041556" expanded="true" signature="371:611" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/device/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="9" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="450">
+              <folding>
+                <marker date="1388677749586" expanded="true" signature="316:404" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="31" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -185,20 +200,44 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/LoggerController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/TestController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/WebController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/geekhub/grails/Device.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/TokenController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/geekhub/grails/AndroidPushotificationService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/geekhub/grails/DeviceService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/_footer.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/kickstart.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp" />
+        <option value="$PROJECT_DIR$/target/work/plugins/jquery-1.10.2.2/web-app/js/jquery/jquery-1.10.2.min.js" />
+        <option value="$PROJECT_DIR$/target/work/plugins/jquery-1.10.2.2/grails-app/conf/JQueryPluginResources.groovy" />
+        <option value="$PROJECT_DIR$/target/work/plugins/jquery-1.10.2.2/src/groovy/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/_menu/_user.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/geekhub/grails/Setting.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/pushNotification/_release.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/device/list.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy" />
+        <option value="$PROJECT_DIR$/application.properties" />
+        <option value="$PROJECT_DIR$/target/work/plugins/app-engine-0.8.10/src/groovy/org/grails/appengine/Log4jConfigListener.groovy" />
+        <option value="$PROJECT_DIR$/Geekhub-grails.iml" />
         <option value="$PROJECT_DIR$/grails-app/services/geekhub/grails/AndroidPushNotificationService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/pushNotification/_notification.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/pushNotification/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/pushNotification/notification.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/_menu/_menubar.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/pushNotification/_menubar.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/_content.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/notification.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/pushNotification/release.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/target/stacktrace.log" />
         <option value="$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy" />
       </list>
     </option>
@@ -237,6 +276,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,11 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,72 +320,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geekhub-grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geekhub-grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geekhub-grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geekhub-grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geekhub-grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geekhub-grails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,7 +366,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,18 +375,52 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/grails-app/controllers" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="options.lastSelected" value="reference.settings.deploy.options" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="197" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="222" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="227" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1137" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="208" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="218" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="224" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3458128" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:Geekhub-grails">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -440,6 +443,11 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoogleAppEngineDevServer" factoryName="Local" APPLICATION_SERVER_NAME="AppEngine Dev 1.8.8" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <server-settings />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -671,7 +679,13 @@
       <workItem from="1387958337613" duration="2144000" />
       <workItem from="1388138597121" duration="5940000" />
       <workItem from="1388399525322" duration="14047000" />
-      <workItem from="1388474590651" duration="13116000" />
+      <workItem from="1388474590651" duration="17216000" />
+      <workItem from="1388647082394" duration="20865000" />
+      <workItem from="1388671537858" duration="6558000" />
+      <workItem from="1388734603038" duration="1185000" />
+      <workItem from="1388737409814" duration="16853000" />
+      <workItem from="1388993488858" duration="10086000" />
+      <workItem from="1389005665820" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1387813936646</created>
@@ -681,7 +695,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41182000" />
+    <option name="totallyTimeSpent" value="102902000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1504" y="-4" width="1857" height="1085" extended-state="6" />
@@ -694,24 +728,23 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2824798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3326425" sideWeight="0.4997242" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.4997242" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20353006" sideWeight="0.6009693" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29326424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33056995" sideWeight="0.5002758" order="2" side_tool="false" content_ui="tabs" x="1918" y="674" width="1813" height="283" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885212" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39777327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39710444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -720,7 +753,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -747,205 +781,80 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/geekhub/grails/Device.groovy">
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/kickstart-with-bootstrap-1.0.0/web-app/kickstart/css/kickstart.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="29" column="1" selection-start="636" selection-end="636" vertical-scroll-proportion="0.45415777" vertical-offset="9" max-vertical-offset="4050" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
+    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="465">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy">
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/dist/grails-plugin-gsp-2.3.4-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ValidationTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="286" column="12" selection-start="10152" selection-end="10152" vertical-scroll-proportion="-0.045378152" vertical-offset="3822" max-vertical-offset="6945" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/android-gcm-0.2/grails-app/services/es/osoco/android/gcm/AndroidGcmService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="12" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="1695">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/WebController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
+        <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/lib/com.h2database/h2/jars/h2-1.3.173-sources.jar!/org/h2/engine/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.13100436" vertical-offset="0" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="351" column="16" selection-start="14020" selection-end="14020" vertical-scroll-proportion="-3.3398693" vertical-offset="7611" max-vertical-offset="14610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/geekhub/grails/Role.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/dist/grails-plugin-controllers-2.3.4-sources.jar!/org/codehaus/groovy/grails/plugins/web/api/ControllersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="53" selection-start="10588" selection-end="10588" vertical-scroll-proportion="-0.3349835" vertical-offset="3698" max-vertical-offset="6540" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/dist/grails-web-2.3.4-sources.jar!/org/codehaus/groovy/grails/web/servlet/mvc/GrailsParameterMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="13" selection-start="13282" selection-end="13282" vertical-scroll-proportion="0.50921273" vertical-offset="3896" max-vertical-offset="4980" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/lib/org.springframework/spring-web/jars/spring-web-3.2.5.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="3765" selection-end="3765" vertical-scroll-proportion="0.33333334" vertical-offset="1112" max-vertical-offset="2130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/geekhub/grails/Setting.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="170" selection-end="170" vertical-scroll-proportion="-6.521739" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/lib/org.springframework/spring-webmvc/jars/spring-webmvc-3.2.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="28" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.0" vertical-offset="1494" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="1245" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/geekhub/grails/Device.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="55" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="48" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RC1/spring-security-core-3.2.0.RC1.jar!/org/springframework/security/access/annotation/Secured.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="448" selection-end="448" vertical-scroll-proportion="0.22094926" vertical-offset="0" max-vertical-offset="611" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="77" selection-start="361" selection-end="361" vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/WebController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/ProxyAwareMixedGrailsControllerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1245" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
+        <state line="111" column="19" selection-start="7547" selection-end="7547" vertical-scroll-proportion="1.1290323" vertical-offset="1090" max-vertical-offset="1995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/geekhub/grails/Device.groovy">
@@ -953,49 +862,226 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="-7.173913" vertical-offset="0" max-vertical-offset="255">
+        <state line="9" column="5" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="-13.043478" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="881" column="16" selection-start="37646" selection-end="37646" vertical-scroll-proportion="0.33279485" vertical-offset="12499" max-vertical-offset="19545" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/android/gcm/gcm-server/1.0.2/gcm-server-1.0.2.jar!/com/google/android/gcm/server/Sender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.8881239" vertical-offset="294" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="40" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/lib/org.springframework/spring-tx/jars/spring-tx-3.2.5.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="0" selection-start="5660" selection-end="5660" vertical-scroll-proportion="0.0" vertical-offset="1592" max-vertical-offset="2355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geekhub-grails.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="916" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/android-gcm-0.2/grails-app/services/es/osoco/android/gcm/AndroidGcmService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="12" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.3601896" vertical-offset="987" max-vertical-offset="1620">
+        <state line="9" column="6" selection-start="286" selection-end="286" vertical-scroll-proportion="-0.65436244" vertical-offset="450" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="37" selection-start="4704" selection-end="4704" vertical-scroll-proportion="0.0" vertical-offset="1407" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/geekhub/grails/DeviceService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/geekhub/grails/AndroidPushNotificationService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="33" column="0" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/DeviceController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_submenubar.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="124" selection-end="124" vertical-scroll-proportion="-5.2173915" vertical-offset="0" max-vertical-offset="465">
+        <state line="27" column="17" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.70804197" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="53" selection-start="722" selection-end="722" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_footer.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.10084034" vertical-offset="0" max-vertical-offset="595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="475" selection-end="475" vertical-scroll-proportion="0.28846154" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_admin.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="337" selection-end="337" vertical-scroll-proportion="0.23601398" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_user.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.5611888" vertical-offset="114" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/dist/grails-plugin-gsp-2.3.4-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/SitemeshTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="12" selection-start="4584" selection-end="4584" vertical-scroll-proportion="0.33279485" vertical-offset="1459" max-vertical-offset="3060" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="148" selection-end="148" vertical-scroll-proportion="-1.2765957" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/sdks/grails-2.3.4/dist/grails-plugin-gsp-2.3.4-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/RenderTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="39" selection-start="11742" selection-end="11742" vertical-scroll-proportion="0.453958" vertical-offset="3634" max-vertical-offset="9120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_menubar.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="378" selection-end="378" vertical-scroll-proportion="-2.5531914" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/_menubar.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="226" selection-end="226" vertical-scroll-proportion="-1.5957447" vertical-offset="0" max-vertical-offset="240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/_notification.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/notification.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.8723404" vertical-offset="0" max-vertical-offset="225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_header.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_content.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="62" selection-start="545" selection-end="545" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/kickstart.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="8" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-18.916666" vertical-offset="326" max-vertical-offset="1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/notification.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/release.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="420">
+          <folding>
+            <marker date="1389000041556" expanded="true" signature="371:611" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/device/list.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="450">
+          <folding>
+            <marker date="1388677749586" expanded="true" signature="316:404" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="48" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="31" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/pushNotification/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/stacktrace.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="1" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/geekhub/grails/PushNotificationController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="391" selection-end="391" vertical-scroll-proportion="0.44262296" vertical-offset="0" max-vertical-offset="610">
+        <state line="28" column="73" selection-start="672" selection-end="672" vertical-scroll-proportion="0.43673012" vertical-offset="0" max-vertical-offset="893">
           <folding />
         </state>
       </provider>
@@ -1007,8 +1093,8 @@
         <entry key="Geekhub-grails">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="947412046" />
-              <option name="pluginDependenciesCrc" value="1433315873" />
+              <option name="buildConfigCrc" value="383015189" />
+              <option name="pluginDependenciesCrc" value="374998510" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="$USER_HOME$/.grails/2.3.4/global-plugins" />
@@ -1027,6 +1113,94 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Geekhub-grails:GrailsWeb exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3458128" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3458128" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.3.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3458128" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3458128" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|Geekhub-grails</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3458128" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3458128" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

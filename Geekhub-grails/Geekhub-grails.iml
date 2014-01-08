@@ -8,15 +8,6 @@
         </fileset>
       </configuration>
     </facet>
-    <facet type="web" name="GrailsWeb">
-      <configuration>
-        <webroots>
-          <root url="file://$MODULE_DIR$/web-app" relative="/" />
-          <root url="file://$MODULE_DIR$/grails-app/views" relative="/" />
-        </webroots>
-        <sourceRoots />
-      </configuration>
-    </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
@@ -24,6 +15,15 @@
           <unit-entry name="sessionFactory" />
         </datasource-map>
         <naming-strategy-map />
+      </configuration>
+    </facet>
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/grails-app/views" relative="/" />
+        </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -41,6 +41,7 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/work/gspcompile" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-build-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-provided-classes" />
@@ -54,7 +55,6 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Geekhub-grails)">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/lib" />
           <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/2.0.5/liquibase-core-2.0.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.2.5.RELEASE/spring-orm-3.2.5.RELEASE.jar!/" />
@@ -70,13 +70,18 @@
           <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm-hibernate/2.0.6.RELEASE/grails-datastore-gorm-hibernate-2.0.6.RELEASE.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/android/gcm/gcm-server/1.0.2/gcm-server-1.0.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.0.RC1/spring-security-web-3.2.0.RC1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RC1/spring-security-core-3.2.0.RC1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/lesscss/lesscss/1.3.3/lesscss-1.3.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/3.7.2/ecj-3.7.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.47/tomcat-embed-jasper-7.0.47.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.47/tomcat-catalina-ant-7.0.47.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/android/gcm/gcm-server/1.0.2/gcm-server-1.0.2.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.0.RC1/spring-security-web-3.2.0.RC1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.0.RC1/spring-security-core-3.2.0.RC1.jar!/" />
+          <root url="file://$MODULE_DIR$/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
